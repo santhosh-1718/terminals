@@ -8,7 +8,6 @@ const PORT = 5000;
 
 app.use(cors());
 app.use(express.json());
-
 // Serve static files (your HTML, CSS, JS)
 app.use(express.static('public'));
 
