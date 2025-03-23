@@ -56,7 +56,6 @@ function refreshFileManager(files) {
         fileManagerContent.appendChild(item);
     });
 }
-
 // Add event listener for terminal input
 document.getElementById('input').addEventListener('keydown', function (event) {
     if (event.key === 'Enter') {
